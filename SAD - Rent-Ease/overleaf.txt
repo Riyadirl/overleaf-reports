@@ -1,0 +1,641 @@
+\documentclass[conference]{IEEEtran}
+\IEEEoverridecommandlockouts
+% The preceding line is only needed to identify funding in the first footnote. If that is unneeded, please comment it out.
+\usepackage{cite}
+\usepackage{amsmath,amssymb,amsfonts}
+\usepackage{algorithmic}
+\usepackage{graphicx}
+\usepackage{textcomp}
+\usepackage[utf8]{inputenc}
+\usepackage{xcolor}
+\usepackage{tikz}
+\usepackage{float}
+\usetikzlibrary{shapes.multipart}
+\def\BibTeX{{\rm B\kern-.05em{\sc i\kern-.025em b}\kern-.08em
+    T\kern-.1667em\lower.7ex\hbox{E}\kern-.125emX}}
+\begin{document}
+
+
+\title{Rent Ease}
+
+\author{\IEEEauthorblockN{Mohaiminul Haque\IEEEauthorrefmark{1}, MD. Arif Faysal Nayem\IEEEauthorrefmark{2}, Mahabub Hasan Riyad\IEEEauthorrefmark{3}, Md. Nazmul Huda\IEEEauthorrefmark{4}}
+\IEEEauthorblockA{\textit{Dept. of Computer Science and Engineering} \\
+\textit{United International University, Dhaka, Bangladesh}\\
+011201072\IEEEauthorrefmark{1}, 011201194\IEEEauthorrefmark{2},
+011211007\IEEEauthorrefmark{3}, 011211096\IEEEauthorrefmark{4} 
+}}
+
+\maketitle
+
+\begin{abstract}
+Rent Ease is a cutting-edge web-based platform revolutionizing the rental landscape, enabling landlords and tenants to effortlessly connect and transact. With personalized accounts, intuitive search options, and secure payment gateways, it simplifies property discovery and rent payments. Its innovative features, including maintenance request submission, virtual property tours, and a robust review system, ensure a seamless and transparent rental experience. Providing landlords with insightful analytics and tenants with dedicated support, Rent Ease is the definitive solution for streamlined, efficient, and trustworthy rental management.
+\end{abstract}
+
+
+
+
+\section{System Definition}
+
+The Rent Ease system is a sophisticated, web-based platform designed to facilitate seamless interactions between landlords and tenants in the domain of property rentals. It serves as a comprehensive solution, offering a range of user-friendly features tailored to simplify the rental process. Users can create personalized accounts, allowing them to efficiently navigate through functionalities such as property search, secure online payments, maintenance request submissions, virtual property tours, and a transparent review system. Landlords benefit from insightful analytics on property performance, while tenants receive dedicated support, ensuring a transparent, efficient, and trustworthy rental experience for both parties involved.
+
+
+\section{ Proposed feature list}
+\subsection{Sign up and Log in}
+This feature enables users to create new accounts and log in securely using proper credentials, providing access to the Rent Ease platform.
+
+\subsection{Recommendations}
+Utilizing user search history and preferences, this feature recommends properties to users, enhancing their browsing experience by suggesting relevant listings.
+
+\subsection{Search and Sort Feature}
+Allowing users to filter search results by specific criteria (such as location, property type, amenities) and sorting options based on price or other relevant factors for easier property selection.
+
+\subsection{Payment Gateway}
+Integration with payment processing providers, facilitating online rent payments for tenants through a secure and convenient gateway.
+
+\subsection{Maintenance Request System}
+Enables tenants to submit maintenance requests to landlords online, streamlining the process and ensuring prompt attention to property issues.
+
+\subsection{Reviews and Ratings}
+Allows landlords and tenants to leave reviews and ratings for each other, fostering transparency and aiding future users in making informed decisions.
+
+\subsection{Messaging System}
+Facilitates communication between tenants and landlords through an integrated messaging system, allowing discussions on property viewings, lease negotiations, and inquiries.
+
+\subsection{Virtual Tour}
+Offers users the opportunity to take virtual tours of properties, providing a comprehensive view before scheduling physical viewings.
+
+\subsection{Reporting and Analytics}
+Provides landlords with insightful reports and analytics on their rental properties, including occupancy rates, rental income, and maintenance costs for better property management.
+
+\subsection{Calendar and Scheduling}
+Integrates a calendar system for scheduling property viewings, inspections, and move-in/move-out dates, aiding in efficient property management.
+
+\subsection{Support and Help Center}
+Includes a dedicated support system, featuring FAQs and customer service, to assist users with any queries or issues they might encounter.
+
+\subsection{Document Management}
+Enables users to upload, store, and share essential documents like lease agreements, property photos, and identification securely within the platform.
+
+
+
+\section{Information Gathering}
+\subsection{Interview}
+\subsection{Survey}
+We have devised survey questions to gather information, utilizing Google Forms as the platform for data collection.
+Screenshot attached here
+
+\begin{figure}[H]
+    \centering
+\includegraphics[width=0.5\textwidth]{s1.png}
+\end{figure}
+
+
+\begin{figure}[H]
+    \centering
+\includegraphics[width=0.5\textwidth]{s2.png}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+\includegraphics[width=0.5\textwidth]{s3.png}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+\includegraphics[width=0.5\textwidth]{s4.png}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+\includegraphics[width=0.5\textwidth]{s5.png}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+\includegraphics[width=0.5\textwidth]{s6.png}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+\includegraphics[width=0.5\textwidth]{s7.png}
+\end{figure}
+
+
+\begin{figure}[H]
+    \centering
+\includegraphics[width=0.5\textwidth]{s8.png}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+\includegraphics[width=0.5\textwidth]{s9.png}
+\end{figure}
+
+
+\begin{figure}[H]
+    \centering
+\includegraphics[width=0.5\textwidth]{s10.png}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+\includegraphics[width=0.5\textwidth]{s12.png}
+\end{figure}
+
+
+\section{Gap Analysis}
+\subsection{Budget Gap}
+\textbf{Gap:} Some features will require more money from our actual budget. For example, if we implement a messaging feature, it may require an additional server, which will not be beneficial for our system to maintain.
+\newline
+\textbf{Solution:} Exclude those features that require extra money.
+
+\subsection{Feature Gap}
+\textbf{Gap:} Certain features might be absent, even though there is a significant demand for them or they exist in other established systems.
+\newline
+\textbf{Solution:} Recognize these features and incorporate them.
+
+\subsection{Resource Gap}
+\textbf{Gap:} Insufficient resources, including skilled developers, designers, infrastructure, and accountants, have been assigned for the system.
+\newline
+\textbf{Solution:} Coordinate with project management to secure the availability and proper distribution of the necessary human and technical resources.
+
+\subsection{Advertisement Gap}
+\textbf{Gap:} Lack of home renters due to inadequate advertising by administrators.
+\newline
+\textbf{Solution:} Investing in advertising will be beneficial for the system's potential.
+
+\subsection{Geographical Area Gap}
+\textbf{Gap:} Inconsistencies in how the system is perceived, potentially affecting user trust and engagement.
+\newline
+\textbf{Solution:} Implement targeted marketing campaigns to enhance brand awareness in specific regions. Gather and respond to user feedback to address region-specific concerns.
+
+
+
+\section{Final Feature List}
+
+\begin{enumerate}
+    \item \textbf{Login and Registration System:} Enable users to create accounts, log in securely, and manage their personal information.
+    
+    \item \textbf{Home Management:} Allow property owners to list and manage their homes for rent.
+    
+    \textbf{Key Components:}
+    \begin{itemize}
+        \item Property listing and editing functionalities
+        \item Maintenance 
+        \item Document management
+    \end{itemize}
+    
+    \item \textbf{Rent Management:} Centralized system for managing all aspects related to rent transactions.
+    
+    \item \textbf{Review System:} Enable users to leave reviews and ratings for rented homes.
+    
+    \item \textbf{Search and Sorting:} Facilitate users in finding homes based on their preferences.
+    
+    \item \textbf{Feedback System:} Gather feedback from users to improve the overall system.
+\end{enumerate}
+
+
+
+\section{SWOT Analysis }
+
+
+\textbf{What is SWOT Analysis?}
+
+SWOT stands for Strengths, Weaknesses, Opportunities, and Threats. A SWOT analysis is a framework to help assess and understand the internal and external forces that may create opportunities or risks for an organization.
+
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\textwidth]{swot.png}
+   
+    \label{fig:swot}
+\end{figure}
+
+
+\textbf{SWOT Analysis for Rent Ease System}
+
+\textbf{Strengths:}
+\begin{itemize}
+    \item Comprehensive features facilitating landlord-tenant interactions.
+    \item User-friendly interface enhancing ease of property search and management.
+    \item Integration with payment gateways ensuring secure online rent transactions.
+    \item Robust reporting and analytics offering valuable insights to landlords.
+\end{itemize}
+
+\textbf{Weaknesses:}
+\begin{itemize}
+    \item Initial dependency on user base growth for optimal functionality.
+    \item Potential security vulnerabilities due to sensitive data handling.
+    \item Reliance on consistent technological updates for enhanced user experience.
+    \item Possibility of challenges in user adoption and behavioral change.
+\end{itemize}
+
+\textbf{Opportunities:}
+\begin{itemize}
+    \item Rising demand for online rental management platforms.
+    \item Scope for strategic partnerships with real estate agencies for broader listings.
+    \item Potential for expansion into allied services like property insurance or maintenance.
+    \item Adoption of emerging technologies like virtual reality for property tours.
+\end{itemize}
+
+\textbf{Threats:}
+\begin{itemize}
+    \item Increasing competition from established and emerging rental platforms.
+    \item Regulatory changes impacting online rental transactions.
+    \item Potential data breaches and privacy concerns affecting user trust.
+    \item Economic downturns affecting the overall real estate market.
+\end{itemize}
+
+
+
+
+
+
+\section{Feasibility Study}
+\textbf{What Is Feasibility Study?}
+
+A feasibility study is an assessment that determines the likelihood of a proposed project being successful, such as a new product line or technical system. The study analyzes the project's relevant factors, such as technical, economic and legal considerations, to assess whether the project is worth an investment. The study can also identify potential issues and problems that could arise from pursuing the project.
+
+\textbf{Importance of feasibility studies:}
+\begin{itemize}
+    \item Identifies valid reasons to advance or veto a project idea.
+    \item Improves the focus of the project team by providing clear goals and objectives linked to ROI.
+    \item Provides useful information for the next steps after the study, aiding in decision-making processes.
+    \item Narrows potential business alternatives by prioritizing those with higher ROI potential.
+    \item Evaluates current and needed resources and technology required for the project.
+    \item Enhances the success or failure rate of the project by assessing all variables, reducing uncertainties.
+   
+\end{itemize}
+
+
+\textbf{Feasibility Study for Rent-Ease:}
+\newline
+\textbf{Technical Feasibility:}
+\begin{itemize}
+    \item \textbf{Assessment:} The system's technical aspects, such as development tools, infrastructure, and required technology, are feasible and available.
+    \item \textbf{Consideration:} Potential challenges might include system scalability, integration with various platforms, and ongoing technical support requirements.
+\end{itemize}
+
+\textbf{Operational Feasibility:}
+\begin{itemize}
+    \item \textbf{Assessment:} The system aligns with operational procedures and can be smoothly integrated into existing workflows.
+    \item \textbf{Consideration:} Training needs for users and personnel, change management, and adaptation to new operational processes are essential aspects to address.
+\end{itemize}
+
+\textbf{Economic Feasibility:}
+\begin{itemize}
+    \item \textbf{Assessment:} The system's implementation and maintenance costs are justifiable concerning the expected benefits and returns.
+    \item \textbf{Consideration:} Potential cost overruns, unexpected expenses, and ongoing operational costs should be carefully evaluated against projected financial gains.
+\end{itemize}
+
+\textbf{Schedule Feasibility:}
+\begin{itemize}
+    \item \textbf{Assessment:} The system's development, testing, and deployment can be achieved within the predefined schedule.
+    \item \textbf{Consideration:} Factors impacting schedule feasibility include resource availability, technological complexities, and potential unforeseen delays.
+\end{itemize}
+
+\section{ System Design}
+
+
+\subsection{Context Diagram}
+Context diagrams are used to represent the context of a system. They are often used in the
+design phase of a project as a way to explore different design options and their impacts. A
+context diagram is usually created using an external tool like EdrawMax, but it can also be
+drawn by hand. It can be used in conjunction with other diagrams such as an activity
+diagram or sequence diagram to make it easier to understand how each part of the system
+interacts with one another.
+\newline
+Context diagram of Rent-Ease:
+\begin{figure}[H]
+    \centering
+\includegraphics[width=0.5\textwidth]{context.png}
+    \caption{System Context Diagram}
+    \label{fig:context_diagram}
+\end{figure}
+
+
+\subsection{Use Case Diagram}
+
+A use case diagram doesn't go into a lot of detail—for example, don't expect it to model the order in which steps are performed. Instead, a proper use case diagram depicts a high-level overview of the relationship between use cases, actors, and systems. Experts recommend that use case diagrams be used to supplement a more descriptive textual use case.
+
+ideas for use case diagram:
+\begin{itemize}
+    \item Representing the goals of system-user interactions.
+    \item Defining and organizing functional requirements in a system.
+    \item Specifying the context and requirements of a system.
+    \item Modeling the basic flow of events in a use case.
+    Use Case diagram of Rent-Ease:
+\end{itemize}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\textwidth]{usecase.png}
+    \caption{Use Case Diagram}
+    \label{fig:use_case_diagram}
+\end{figure}
+
+
+
+\subsection{Activity Diagram}
+Activity diagram is essentially an advanced version of flow chart that modeling the flow from one activity to another activity
+Activity diagrams of Rent-Ease:
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\textwidth]{activity-homeowner.png}
+    \caption{Activity Diagram for Home Owner}
+    \label{fig:activity_diagram}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\textwidth]{activity-takerent.png}
+    \caption{Activity Diagram for Take Rent}
+    \label{fig:activity_diagram}
+\end{figure}
+
+
+
+\subsection{Data Flow Diagram}
+A data flow diagram shows the way information flows through a process or system. It includes data inputs and outputs, data stores, and the various subprocesses the data moves through. DFDs are built using standardized symbols and notation to describe various entities and their relationships. 
+
+Data flow diagrams visually represent systems and processes that would be hard to describe in just words. You can use these diagrams to map out an existing system and make it better or to plan out a new system for implementation. Visualizing each element makes it easy to identify inefficiencies and produce the best possible system
+
+\textbf{Levels of Data Flow Diagrams (DFDs):}
+\begin{enumerate}
+    \item \textbf{Level 0 DFD:} This highest-level DFD provides an overview of the entire system. It showcases major processes, data flows, and data stores without delving into internal process details.
+    
+    \item \textbf{Level 1 DFD:} Offering a more detailed view, this level breaks down major processes from the Level 0 DFD into sub-processes. Each sub-process is shown as a separate process, detailing associated data flows and data stores.
+    
+    \item \textbf{Level 2 DFD:} Building on the Level 1 DFD, this level delves further by breaking down sub-processes into more detailed segments. Each sub-process is represented separately, displaying corresponding data flows and data stores.
+    
+    \item \textbf{Level 3 DFD:} This is the most detailed level, providing an intricate view of processes, data flows, and data stores within the system. It's typically used for complex systems, offering detailed descriptions of inputs, processing steps, outputs, and associated data elements.
+\end{enumerate}
+Data flow diagram of Rent-Ease:
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\textwidth]{data-flow-1.png}
+    \caption{Data Flow Diagram}
+    \label{fig:data_flow_diagram}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\textwidth]{dataflow-2.png}
+    \caption{Data Flow Diagram}
+    \label{fig:data_flow_diagram}
+\end{figure}
+
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\textwidth]{dataflowflow-3.png}
+    \caption{Data Flow Diagram}
+    \label{fig:data_flow_diagram}
+\end{figure}
+
+
+
+\subsection{Class Diagram}
+\begin{figure}[H]
+    \centering
+    \textbf{What is a Class:}
+A class describes a group of objects with similar roles in a system, including:
+\begin{itemize}
+    \item Structural features (attributes) defining object state.
+    \item Behavioral features (operations) describing object interactions.
+\end{itemize}
+\textbf{Purpose of Class Diagrams:}
+\begin{itemize}
+    \item Show static structure of classifiers in a system.
+    \item Provide a basic notation for other UML structure diagrams.
+    \item Help developers and team members understand system structure.
+    \item Assist Business Analysts in modeling systems from a business perspective.
+\end{itemize}
+\textbf{Class Notation:}
+\begin{itemize}
+    \item Class Name: Appears in the first partition.
+    \item Class Attributes: Shown in the second partition, with types.
+    \item Class Operations (Methods): Displayed in the third partition, defining services provided by the class.
+\end{itemize}
+\newline
+Class diagram for Rent-Ease:
+\includegraphics[width=0.5\textwidth]{class-diagram.png}
+    \caption{Class Diagram}
+    \label{fig:class_diagram}
+\end{figure}
+
+
+
+
+\subsection{CRC Card}
+CRC (Class-Responsibility-Collaboration) diagrams are a type of diagram in the field of
+software engineering that are used to model the responsibilities of a system and the
+relationships between the different classes in the system. CRC diagrams are useful for
+understanding the responsibilities of each class in the system and for identifying the
+relationships between the classes.
+Here are the steps to create a CRC diagram:
+\begin{itemize}
+    \item \textbf{Step 1: Identify Classes}
+    \item[] - Identify distinct entities in the system design and list each class.
+    
+    \item \textbf{Step 2: Define Responsibilities}
+    \item[] - Document responsibilities for each class, detailing the tasks it performs.
+    
+    \item \textbf{Step 3: Identify Collaborators}
+    \item[] - Determine other classes or objects each class interacts with to fulfill its responsibilities.
+    
+    \item \textbf{Step 4: Create CRC Cards}
+    \item[] - Generate index cards or notes for each class. Write the class name on one side and responsibilities/collaborators on the other.
+    
+    \item \textbf{Step 5: Refine and Change}
+    \item[] - Utilize CRC cards to refine the design, discussing and rearranging class interactions for design improvement.
+    
+    \item \textbf{Step 6: Update}
+    \item[] - Continuously update CRC cards as the design evolves, reflecting any changes or additions to the system.
+    \newline
+    CRC cards of rent-ease:
+\end{itemize}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\textwidth]{user-crc.png}
+    \caption{User CRC card}
+    \label{fig:class_diagram}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\textwidth]{propertyOwner-crc.png}
+    \caption{Property Owner CRC card}
+    \label{fig:class_diagram}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\textwidth]{rentalProperty-crc.png}
+    \caption{Rent Property CRC card}
+    \label{fig:class_diagram}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\textwidth]{booking-crc.png}
+    \caption{Booking CRC card}
+    \label{fig:class_diagram}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\textwidth]{payment-crc.png}
+    \caption{Payment CRC card}
+    \label{fig:class_diagram}
+\end{figure}
+
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\textwidth]{review-crc.png}
+    \caption{Review CRC card}
+    \label{fig:class_diagram}
+\end{figure}
+
+
+
+
+\subsection{Sequence diagram}
+Sequence Diagrams are interaction diagrams that detail how operations are carried out. They capture the interaction between objects in the context of a collaboration. Sequence Diagrams are time focus and they show the order of the interaction visually by using the vertical axis of the diagram to represent time what messages are sent and when.
+Sequence Diagrams captures:
+\begin{itemize}
+    \item The interaction that takes place in a collaboration that either realizes a use case or an operation.
+    \item High-level interactions between user of the system and the system, between the system and other systems, or between subsystems.
+    
+\end{itemize}
+\newline
+Sequence diagram of Rent-Ease:
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\textwidth]{sequ.png}
+    \caption{Sequence diagram}
+    \label{fig:class_diagram}
+\end{figure}
+
+
+
+\subsection{State diagram}
+ State diagram models the behavior of a system or an object in response to events. A state diagram mainly consists of states, events, guards, transitions, and actions.
+ \newline
+ State diagram of this system:
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\textwidth]{state-paymentlife.png}
+    \caption{Payment life cycle }
+    \label{fig:class_diagram}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\textwidth]{state-rentalstatus.png}
+    \caption{Property rental Status}
+    \label{fig:class_diagram}
+\end{figure}
+
+
+
+
+
+\subsection{Deployment diagram}
+Deployment diagram is a diagram that shows the configuration of run time processing nodes and the components that live on them. Deployment diagrams is a kind of structure diagram used in modeling the physical aspects of an object-oriented system. They are often be used to model the static deployment view of a system
+\textbf{Purpose of Deployment Diagrams}
+\begin{itemize}
+    \item They show the structure of the run-time system
+    \item They capture the hardware that will be used to implement the system and the links between different items of hardware.
+    \item They model physical hardware elements and the communication paths between them.
+    \item They can be used to plan the architecture of a system.
+\end{itemize}
+\newline
+Deployment Diagram of Rent-Ease:
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\textwidth]{deployment.png}
+    \caption{Deployment diagram}
+    \label{fig:class_diagram}
+\end{figure}
+
+
+
+
+\subsection{UI design}
+ User interface is the part of the system with which the users interact. It includes the screen displays that provide navigation through the system, the screens and forms that capture data, and the reports that the system produces (whether on paper, on the Web, or via some other media). This chapter introduces the basic principles and processes of interface design and discusses how to design the interface structure and standards.
+ \newline
+ UI Design of Rent-Ease:
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\textwidth]{reg.png}
+    \caption{Registration page}
+    \label{fig:class_diagram}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\textwidth]{login.png}
+    \caption{Login page}
+    \label{fig:class_diagram}
+\end{figure}
+
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\textwidth]{home.png}
+    \caption{Home page}
+    \label{fig:class_diagram}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\textwidth]{add-home.png}
+    \caption{Add new home page}
+    \label{fig:class_diagram}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\textwidth]{edit-list.png}
+    \caption{Edit home page}
+    \label{fig:class_diagram}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\textwidth]{view-details.png}
+    \caption{View details page}
+    \label{fig:class_diagram}
+\end{figure}
+
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\textwidth]{search (2).png}
+    \caption{Search page}
+    \label{fig:class_diagram}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\textwidth]{payment-ui.png}
+    \caption{Payment page}
+    \label{fig:class_diagram}
+\end{figure}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\textwidth]{reviewww.png}
+    \caption{Review page}
+    \label{fig:class_diagram}
+\end{figure}
+
+\section{Conclusion and Future Work}
+The Rent Ease project stands as a testament to the culmination of efforts aimed at revolutionizing the home rental landscape. The successful development and implementation of a comprehensive web-based platform signify a significant milestone in facilitating seamless interactions between landlords and tenants. Each proposed feature, from the intuitive sign-up process to the multifaceted document management system, has contributed to creating a user-centric ecosystem.
+\newline
+The Rent Ease platform has addressed the pivotal needs of both landlords and tenants, offering personalized property recommendations, advanced search functionalities, secure payment gateways, streamlined communication avenues, and robust reporting tools. These achievements underscore the commitment to user convenience, efficiency, and transparency within the rental process.
+\newline
+The Rent Ease team remains committed to continuous innovation and evolution, aspiring to exceed user expectations while setting new benchmarks in the home rental industry.
+
+
+\end{document}
