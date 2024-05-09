@@ -17,7 +17,6 @@
 
 
 \title{Intern Insight}
-
 \author{
 \IEEEauthorblockN{\textbf{Team Untrap}\IEEEauthorrefmark{5}\\\textbf{Mahabub Hasan Riyad}\IEEEauthorrefmark{1}, \textbf{Md. Nazmul Huda}\IEEEauthorrefmark{2}, \textbf{Md. Afranuzzaman Shourov} \IEEEauthorrefmark{3}, \textbf{Rahima Akter}\IEEEauthorrefmark{4}, \textbf{Ananna Ghosh}\IEEEauthorrefmark{1}}
 \IEEEauthorblockA{\textit{Dept. of Computer Science and Engineering} \\
@@ -28,52 +27,33 @@
 
 
 \maketitle
-\section{Abstract}
+
 \begin{abstract}
-"Intern Insight" revolutionizes the landscape of internship management with its cutting-edge platform, offering a seamlessly integrated ecosystem tailored to the needs of both employers and aspiring interns. This innovative system redefines the internship life cycle, providing a holistic solution for every stage of the process.
-\newline
-At its core, Intern Insight serves as a centralized hub for storing and managing crucial data, and effortlessly organizing candidate information and internship details. Employers benefit from streamlined candidate selection processes, facilitated by intuitive filtering options that empower them to identify the most suitable candidates for their roles swiftly. This efficiency not only saves time but also ensures that the best-fit candidates are matched with relevant internship opportunities, fostering mutually beneficial partnerships between organizations and interns. For aspiring interns, Intern Insight offers a wealth of resources aimed at empowering them in their journey toward meaningful career development. Through the platform's user-friendly interface, individuals can explore a diverse array of internship opportunities tailored to their interests, skills, and career aspirations. The intuitive filtering options enable users to refine their search criteria, ensuring that they discover opportunities that align perfectly with their goals.
-\newline
-Moreover, Intern Insight goes beyond merely facilitating internship placements; it serves as a comprehensive career development companion. Through integrated communication tools, users can engage in meaningful interactions with mentors, industry professionals, and peers, gaining valuable insights and guidance along their career path. Job counseling services provide personalized advice and support, helping users navigate the complexities of the job market with confidence and clarity.
-\newline
-In addition to internship opportunities, Intern Insight offers users access to a diverse range of educational resources designed to enhance their skills and knowledge. Through partnerships with leading educational institutions, users can enroll in courses tailored to their level of education and career goals, further enriching their professional development journey. Security and privacy are paramount concerns, and Intern Insight prioritizes the protection of user data through robust encryption protocols and secure document management systems. Users can trust that their personal information remains confidential and protected at all times.
-\newline
-With its scalable architecture, Intern Insight is equipped to accommodate the evolving needs of users and organizations alike, ensuring scalability and flexibility as the platform grows. Whether you're a student embarking on your first internship or an employer seeking top talent, "Intern Insight" offers a user-friendly, comprehensive solution that optimizes the internship experience for all stakeholders. Discover your path to success with "Intern Insight" – where opportunity meets innovation.
+"Intern Insight" revolutionizes internship management with its integrated platform, benefiting both employers and interns. It streamlines candidate selection for employers and offers tailored opportunities for interns, enhancing career development through mentorship and educational resources. With a focus on security and scalability, it provides a holistic solution for optimizing the internship experience.
+
 \end{abstract}
 
 
 \section{System Definition}
-Intern Insight is a comprehensive web application designed to facilitate job searching, career guidance, and skill enhancement for users. The system is built using a combination of \textbf{HTML, CSS, JavaScript, MySQL, and Bootstrap} to ensure robust functionality and a user-friendly interface.
+
+
+Intern Insight stands at the forefront of revolutionizing internship management through its innovative platform, meticulously designed to cater to the evolving needs of both employers and aspiring interns. This comprehensive system redefines the internship landscape, serving as a dynamic ecosystem that orchestrates every facet of the internship life cycle, from initial recruitment to ongoing career development.
 \newline
-The system architecture begins with HTML, providing the foundational structure of web pages. HTML elements are strategically utilized to organize content logically, ensuring seamless navigation and accessibility for users. Clear and concise markup is employed to define the layout, forms, and interactive elements essential for user interaction.
+At its core, Intern Insight functions as a sophisticated repository of essential data, meticulously organizing candidate information and internship details within a centralized hub. This streamlined approach not only enhances operational efficiency but also facilitates seamless communication between employers and interns, fostering collaborative partnerships built on mutual understanding and shared goals.
 \newline
-CSS is integrated to enhance the visual presentation and styling of the application. Cascading style sheets are leveraged to customize the appearance of HTML elements, ensuring consistency across pages and a cohesive user experience. Responsive design principles are implemented using CSS media queries, enabling the application to adapt to various screen sizes and devices.
+A cornerstone of Intern Insight lies in its ability to streamline candidate selection processes for employers. Through intuitive filtering options and advanced search functionalities, employers can swiftly identify and connect with the most suitable candidates for their internship roles. This efficiency not only saves valuable time but also ensures that internship opportunities are matched with candidates who possess the requisite skills and aspirations, thereby maximizing the potential for fruitful collaborations.
 \newline
-JavaScript is utilized extensively to add dynamic behavior and interactivity to the application. Client-side scripting enables real-time validation of form inputs, dynamic content updates, and seamless navigation through asynchronous requests. JavaScript frameworks and libraries are employed judiciously to streamline development and optimize performance.
+For aspiring interns, Intern Insight serves as a gateway to a wealth of tailored opportunities aimed at nurturing their professional growth and development. Through a user-friendly interface, individuals can explore a diverse array of internship openings aligned with their interests, skills, and career aspirations. The platform's intuitive filtering options enable users to refine their search criteria, ensuring that they discover internship opportunities that resonate with their goals and aspirations.
 \newline
-MySQL serves as the relational database management system, responsible for storing and managing data essential for the application's functionality. Structured Query Language (SQL) is used to define database schema, manipulate data, and perform complex queries. Data integrity and security measures are implemented to safeguard sensitive information and ensure compliance with privacy regulations.
+However, Intern Insight transcends the mere facilitation of internship placements; it serves as a comprehensive career development companion. Integrated communication tools empower users to engage in meaningful interactions with mentors, industry professionals, and peers, facilitating knowledge sharing, networking, and mentorship. Additionally, the platform offers job counseling services, providing personalized guidance and support to help users navigate the complexities of the job market with confidence and clarity.
 \newline
-Bootstrap framework is integrated to expedite frontend development and enhance the application's responsiveness. Pre-designed components and a responsive grid system provided by Bootstrap facilitate rapid prototyping and consistent design patterns. Customization options are utilized to tailor the appearance and behavior of Bootstrap components to align with the application's design requirements.
+Furthermore, Intern Insight offers access to a diverse range of educational resources designed to enrich users' skills and knowledge. Through strategic partnerships with leading educational institutions, users can enroll in courses tailored to their educational background and career goals, further enhancing their professional development journey.
 \newline
-Collectively, the integration of HTML, CSS, JavaScript, MySQL, and Bootstrap enables Intern Insight to deliver a seamless and intuitive user experience. The system's architecture is designed to accommodate scalability, maintainability, and performance optimization, ensuring its viability as a comprehensive platform for job seekers, career counselors, and learners alike.
+Security and privacy are paramount considerations within Intern Insight's architecture. Robust encryption protocols and secure document management systems ensure the protection of user data, instilling confidence in users that their personal information remains confidential and safeguarded at all times.
+\newline
+With its scalable architecture, Intern Insight is poised to accommodate the evolving needs of users and organizations alike. Whether it's a student embarking on their first internship or an employer seeking top talent, Intern Insight offers a user-friendly, comprehensive solution that optimizes the internship experience for all stakeholders. In Intern Insight, opportunity converges with innovation, paving the way for a transformative internship experience that catalyzes professional growth and success.
 
-\section{Benchmark Analysis}
-Intern Insight has carved its niche in the competitive landscape of job-searching platforms, particularly in Bangladesh, by offering a comprehensive suite of features tailored to the needs of its users. A benchmark analysis reveals several areas where Intern Insight shines compared to other renowned platforms in the region, as well as global giants like Linked In.
 
-First and foremost, Intern Insight's emphasis on user-friendliness sets it apart. While other platforms may overwhelm users with a barrage of options, Intern Insight streamlines the job search process through intuitive filtering options. This simplicity not only enhances the user experience but also ensures that job seekers can efficiently navigate through numerous opportunities without feeling bogged down.
-
-Additionally, Intern Insight stands out in its provision of personalized advice through job counseling services. While some platforms may offer generic tips, Intern Insight goes the extra mile by providing tailored guidance based on individual career goals and aspirations. This personalized approach resonates with users, fostering a sense of trust and loyalty towards the platform.
-
-Furthermore, Intern Insight's integration of educational courses adds another dimension to its appeal. By offering opportunities to enroll in courses suited to users' education levels, Intern Insight becomes more than just a job search platform—it becomes a holistic resource for career development. This integration not only attracts users seeking to enhance their skills but also positions Intern Insight as a one-stop destination for all their career-related needs.
-
-Comparing Intern Insight to global juggernauts like Linked In, it's evident that while the latter boasts a vast network and brand recognition, Intern Insight excels in its localized approach and tailored services. While Linked In may cater to a broad spectrum of users worldwide, Intern Insight's focus on the specific needs and nuances of the Bangladeshi job market gives it a competitive edge in terms of relevance and effectiveness.
-
-In conclusion, Intern Insight's benchmark analysis reveals its strengths in user-friendliness, personalized advice, and integration of educational courses, setting it apart from both local competitors and global giants. By continually innovating and refining its offerings, Intern Insight is poised to solidify its position as the premier destination for job seekers in Bangladesh and beyond.
-
-\begin{figure}[H]
-    \centering
-\includegraphics[width=0.5\textwidth]{iibenchmark.png}
-\end{figure}
 
 \section{Proposed Feature List}
 \subsection{Login-Logout}
@@ -100,6 +80,35 @@ Employers can post job openings with detailed descriptions including job titles,
  User-friendly tools and templates to guide users in creating professional resumes or CVs tailored to their target industries and job roles. Customization options include formatting, sections, and content organization to highlight users' strengths and achievements effectively.
 \subsection{Editing Resume/CV}
  Users can edit their resumes or CVs at any time to reflect their latest experiences, skills, certifications, or achievements. Revision history and version control features ensure that users can track changes and revert to previous versions if needed.
+
+
+\section{Benchmark Analysis}
+\textbf{What is Benchmark Analysis?}
+Benchmark analysis, also known as benchmarking, is a process of comparing an organization's performance, practices, products, or services against those of its competitors or industry leaders. The goal of benchmark analysis is to identify areas for improvement, best practices, or opportunities for innovation by evaluating performance metrics, processes, and strategies relative to industry standards or peers.
+\newline
+
+
+Intern Insight has carved its niche in the competitive landscape of job-searching platforms, particularly in Bangladesh, by offering a comprehensive suite of features tailored to the needs of its users. A benchmark analysis reveals several areas where Intern Insight shines compared to other renowned platforms in the region, as well as global giants like Linked In.
+
+First and foremost, Intern Insight's emphasis on user-friendliness sets it apart. While other platforms may overwhelm users with a barrage of options, Intern Insight streamlines the job search process through intuitive filtering options. This simplicity not only enhances the user experience but also ensures that job seekers can efficiently navigate through numerous opportunities without feeling bogged down.
+
+Additionally, Intern Insight stands out in its provision of personalized advice through job counseling services. While some platforms may offer generic tips, Intern Insight goes the extra mile by providing tailored guidance based on individual career goals and aspirations. This personalized approach resonates with users, fostering a sense of trust and loyalty towards the platform.
+
+Furthermore, Intern Insight's integration of educational courses adds another dimension to its appeal. By offering opportunities to enroll in courses suited to users' education levels, Intern Insight becomes more than just a job search platform—it becomes a holistic resource for career development. This integration not only attracts users seeking to enhance their skills but also positions Intern Insight as a one-stop destination for all their career-related needs.
+
+Comparing Intern Insight to global juggernauts like Linked In, it's evident that while the latter boasts a vast network and brand recognition, Intern Insight excels in its localized approach and tailored services. While Linked In may cater to a broad spectrum of users worldwide, Intern Insight's focus on the specific needs and nuances of the Bangladeshi job market gives it a competitive edge in terms of relevance and effectiveness.
+
+In conclusion, Intern Insight's benchmark analysis reveals its strengths in user-friendliness, personalized advice, and integration of educational courses, setting it apart from both local competitors and global giants. By continually innovating and refining its offerings, Intern Insight is poised to solidify its position as the premier destination for job seekers in Bangladesh and beyond.
+
+\begin{figure}[H]
+    \centering
+\includegraphics[width=0.5\textwidth]{iibenchmark.png}
+\end{figure}
+
+
+
+
+
 
 
 
@@ -146,72 +155,9 @@ Sharing the survey link through various channels such as email newsletters, soci
 By following these steps, We effectively gathered feedback from a wide range of users and gained valuable insights into their perceptions of Intern Insight as their job-searching platform.
 
 
-\section{Feasibility Study}
-\textbf{What Is Feasibility Study?}
-
-A feasibility study is an assessment that determines the likelihood of a proposed project being successful, such as a new product line or technical system. The study analyzes the project's relevant factors, such as technical, economic, and legal considerations, to assess whether the project is worth an investment. The study can also identify potential issues and problems that could arise from pursuing the project.
-
-\textbf{Importance of feasibility studies:}
-\begin{itemize}
-    \item Identifies valid reasons to advance or veto a project idea.
-    \item Improves the focus of the project team by providing clear goals and objectives linked to ROI.
-    \item Provides useful information for the next steps after the study, aiding in decision-making processes.
-    \item Narrows potential business alternatives by prioritizing those with higher ROI potential.
-    \item Evaluates current and needed resources and technology required for the project.
-    \item Enhances the success or failure rate of the project by assessing all variables, reducing uncertainties.
-   
-\end{itemize}
 
 
-\textbf{Feasibility Study for Intern Insight:}
-\newline
-\textbf{Market Analysis:}
-\begin{itemize}
-    \item Identify the target market (e.g., students, recent graduates, career changers).
-    \item Analyze the demand for job search apps, career counseling services, and online courses.
-    \item Assess competitors' strengths, weaknesses, and market share.
-\end{itemize}
-\textbf{Technical Feasibility:}
-\begin{itemize}
-    \item Evaluate the app's development requirements, including technology stack, scalability, and security measures.
-    \item Determine if the app can be developed within budget and time constraints.
-    \item Consider compatibility with different devices and operating systems.
-\end{itemize}
-\textbf{Financial Feasibility:}
-\begin{itemize}
-    \item Estimate the initial development costs, including software development, design, and infrastructure.
-    \item Calculate ongoing expenses such as maintenance, marketing, and server hosting.
-    \item Project revenue streams, such as subscription fees, course enrollment fees, or advertising.
-\end{itemize}
-\textbf{Legal and Regulatory Compliance:}
-\begin{itemize}
-    \item Ensure compliance with data protection regulations (e.g., GDPR, CCPA).
-    \item Obtain necessary licenses or permits for operating the app.
-    \item Address any legal risks associated with user-generated content, intellectual property rights, or employment laws.
-\end{itemize}
-\textbf{Operational Feasibility:}
-\begin{itemize}
-    \item Assess the resources required to operate the app, including staffing, customer support, and content management.
-    \item Determine if existing processes and workflows can accommodate app operations.
-    \item Identify potential challenges in user engagement, retention, and satisfaction.
-\end{itemize}
-\textbf{Marketing and User Acquisition:}
-\begin{itemize}
-    \item Develop a marketing strategy to attract users to the app.
-    \item Consider leveraging social media, search engine optimization (SEO), and partnerships with educational institutions or employers.
-    \item Evaluate the cost-effectiveness of different acquisition channels and retention tactics.
-\end{itemize}
-\textbf{Risk Assessment:}
-\begin{itemize}
-    \item Identify potential risks that could affect the success of the app, such as technical issues, competition, or changes in market demand.
-    \item Develop mitigation strategies to address these risks, such as regular updates and improvements, diversification of revenue streams, or partnerships with industry stakeholders.
-\end{itemize}
-\textbf{Social and Environmental Impact:}
-\begin{itemize}
-    \item Consider the broader implications of the app on society and the environment.
-    \item Evaluate how InternInsight contributes to addressing societal challenges such as unemployment or skill gaps.
-    \item Assess the app's carbon footprint and explore opportunities for sustainability initiatives.
-\end{itemize}
+
 \section{Survey Responses}
 
 \begin{figure}[H]
@@ -288,6 +234,76 @@ This image is a PowerPoint slide titled "Questionnaire and Responses" focusing o
 On the right side of the pie chart, there is a legend that matches the colors used in the chart to the respective responses. The layout is clear and used to visually represent the opinions of respondents regarding the effectiveness of using quiz sessions in job application processes.
 
 
+\section{Feasibility Study}
+\textbf{What Is Feasibility Study?}
+
+A feasibility study is an assessment that determines the likelihood of a proposed project being successful, such as a new product line or technical system. The study analyzes the project's relevant factors, such as technical, economic, and legal considerations, to assess whether the project is worth an investment. The study can also identify potential issues and problems that could arise from pursuing the project.
+\newline
+\textbf{Importance of feasibility studies:}
+\begin{itemize}
+    \item Identifies valid reasons to advance or veto a project idea.
+    \item Improves the focus of the project team by providing clear goals and objectives linked to ROI.
+    \item Provides useful information for the next steps after the study, aiding in decision-making processes.
+    \item Narrows potential business alternatives by prioritizing those with higher ROI potential.
+    \item Evaluates current and needed resources and technology required for the project.
+    \item Enhances the success or failure rate of the project by assessing all variables, reducing uncertainties.
+   
+\end{itemize}
+
+
+\textbf{Feasibility Study for Intern Insight:}
+\newline
+\textbf{Market Analysis:}
+\begin{itemize}
+    \item Identify the target market (e.g., students, recent graduates, career changers).
+    \item Analyze the demand for job search apps, career counseling services, and online courses.
+    \item Assess competitors' strengths, weaknesses, and market share.
+\end{itemize}
+\textbf{Technical Feasibility:}
+\begin{itemize}
+    \item Evaluate the app's development requirements, including technology stack, scalability, and security measures.
+    \item Determine if the app can be developed within budget and time constraints.
+    \item Consider compatibility with different devices and operating systems.
+\end{itemize}
+\textbf{Financial Feasibility:}
+\begin{itemize}
+    \item Estimate the initial development costs, including software development, design, and infrastructure.
+    \item Calculate ongoing expenses such as maintenance, marketing, and server hosting.
+    \item Project revenue streams, such as subscription fees, course enrollment fees, or advertising.
+\end{itemize}
+\textbf{Legal and Regulatory Compliance:}
+\begin{itemize}
+    \item Ensure compliance with data protection regulations (e.g., GDPR, CCPA).
+    \item Obtain necessary licenses or permits for operating the app.
+    \item Address any legal risks associated with user-generated content, intellectual property rights, or employment laws.
+\end{itemize}
+\textbf{Operational Feasibility:}
+\begin{itemize}
+    \item Assess the resources required to operate the app, including staffing, customer support, and content management.
+    \item Determine if existing processes and workflows can accommodate app operations.
+    \item Identify potential challenges in user engagement, retention, and satisfaction.
+\end{itemize}
+\textbf{Marketing and User Acquisition:}
+\begin{itemize}
+    \item Develop a marketing strategy to attract users to the app.
+    \item Consider leveraging social media, search engine optimization (SEO), and partnerships with educational institutions or employers.
+    \item Evaluate the cost-effectiveness of different acquisition channels and retention tactics.
+\end{itemize}
+\textbf{Risk Assessment:}
+\begin{itemize}
+    \item Identify potential risks that could affect the success of the app, such as technical issues, competition, or changes in market demand.
+    \item Develop mitigation strategies to address these risks, such as regular updates and improvements, diversification of revenue streams, or partnerships with industry stakeholders.
+\end{itemize}
+\textbf{Social and Environmental Impact:}
+\begin{itemize}
+    \item Consider the broader implications of the app on society and the environment.
+    \item Evaluate how InternInsight contributes to addressing societal challenges such as unemployment or skill gaps.
+    \item Assess the app's carbon footprint and explore opportunities for sustainability initiatives.
+\end{itemize}
+
+
+
+
 
 \section{Gap Analysis}
 \subsection{User Experience (UX)}
@@ -327,6 +343,7 @@ On the right side of the pie chart, there is a legend that matches the colors us
 
 \section{SWOT Analysis}
 \textbf{What is SWOT Analysis?}
+
 
 SWOT stands for Strengths, Weaknesses, Opportunities, and Threats. A SWOT analysis is a framework to help assess and understand the internal and external forces that may create opportunities or risks for an organization.
 
@@ -452,33 +469,34 @@ Addressing these factors through strategic marketing, partnerships, continuous i
 \end{itemize}
 
 
+
+
+
+
+
+
+
+
 \section{ System Design}
 
 
+\subsection{Technologies Used}
 
-\subsection{Deployment diagram}
-A deployment diagram is a diagram that shows the configuration of run-time processing nodes and the components that live on them. Deployment diagrams are a kind of structure diagram used in modeling the physical aspects of an object-oriented system. They are often used to model the static deployment view of a system
-\textbf{Purpose of Deployment Diagrams}
+The Intern Insight platform leverages a combination of frontend and backend technologies to deliver a seamless and robust user experience. 
+
 \begin{itemize}
-    \item They show the structure of the run-time system
-    \item They capture the hardware that will be used to implement the system and the links between different items of hardware.
-    \item They model physical hardware elements and the communication paths between them.
-    \item They can be used to plan the architecture of a system.
+    \item \textbf{HTML}: Used for creating the structure and content of web pages, providing the foundation for user interfaces and interactions.
+    
+    \item \textbf{CSS}: Employed for styling and formatting the visual presentation of web pages, ensuring consistency and aesthetic appeal across different devices and browsers.
+    
+    \item \textbf{JavaScript}: Utilized to add interactivity and dynamic behavior to web pages, enabling features such as form validation, user input handling, and asynchronous data fetching.
+    
+    \item \textbf{Bootstrap}: Integrated for responsive and mobile-first web development, offering pre-designed components and layouts to expedite frontend development and ensure compatibility across various screen sizes.
+    
+    \item \textbf{MySQL}: Employed as the relational database management system (RDBMS) to store and manage crucial data related to user profiles, job postings, quiz results, and other application data.
+    
+    \item \textbf{PHP}: Used for server-side scripting and backend development, facilitating the processing of user requests, data manipulation, and interaction with the MySQL database to dynamically generate web content and ensure the functionality of the platform.
 \end{itemize}
-
-Deployment Diagram of Intern Insight:
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=0.5\textwidth]{uidiagram.png}
-    \caption{Designing Diagram}
-    \label{fig:class_diagram}
-\end{figure}
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=0.5\textwidth]{uidatabase.png}
-    \caption{SQL Database}
-    \label{fig:class_diagram}
-\end{figure}
 
 
 
@@ -555,6 +573,65 @@ Deployment Diagram of Intern Insight:
     \caption{Admin Blogs}
     \label{fig:class_diagram}
 \end{figure}
+
+\section{Application of Different Types of Testing}
+
+1. \textbf{Unit Testing}:
+   \begin{itemize}
+       \item \textbf{Scenario}: Testing individual functions or modules such as user authentication, profile creation, or quiz submission to ensure they work correctly in isolation.
+       \item \textbf{Outcome}: Ensures that each unit of the system performs as expected and meets its specifications, helping to identify and fix bugs early in the development process.
+   \end{itemize}
+
+2. \textbf{Integration Testing}:
+   \begin{itemize}
+       \item \textbf{Scenario}: Testing the integration between different components such as the quiz module and the candidate profile module to ensure they work together seamlessly.
+       \item \textbf{Outcome}: Verifies that the interactions between integrated components function correctly, detecting any inconsistencies or compatibility issues.
+   \end{itemize}
+
+3. \textbf{System Testing}:
+   \begin{itemize}
+       \item \textbf{Scenario}: Testing the entire system flow from candidate registration, profile creation, quiz taking, job application, to interview scheduling to ensure all features function correctly together.
+       \item \textbf{Outcome}: Validates the overall behavior and functionality of the system, ensuring that it meets specified requirements and user expectations.
+   \end{itemize}
+
+4. \textbf{Stress Testing}:
+   \begin{itemize}
+       \item \textbf{Scenario}: Simulating a large number of simultaneous quiz submissions or job applications to assess how well the system handles high loads and to identify potential bottlenecks.
+       \item \textbf{Outcome}: Evaluates the system's robustness and performance under extreme conditions, identifying any performance degradation or system failures.
+   \end{itemize}
+
+5. \textbf{Performance Testing}:
+   \begin{itemize}
+       \item \textbf{Scenario}: Measuring the response time of various actions such as profile creation, quiz loading, or job search to ensure that the system meets performance requirements under normal usage conditions.
+       \item \textbf{Outcome}: Provides insights into the system's responsiveness and efficiency, helping to optimize performance and enhance user experience.
+   \end{itemize}
+
+6. \textbf{Usability Testing}:
+   \begin{itemize}
+       \item \textbf{Scenario}: Conducting user testing sessions to evaluate how easily candidates can navigate through the platform, find relevant information, and complete tasks such as taking quizzes or applying for jobs.
+       \item \textbf{Outcome}: Identifies usability issues and user experience challenges, informing design improvements to enhance usability and user satisfaction.
+   \end{itemize}
+
+7. \textbf{Acceptance Testing}:
+   \begin{itemize}
+       \item \textbf{Scenario}: Allowing a group of stakeholders, including employers and candidates, to use the platform and provide feedback to ensure that it meets their expectations and requirements.
+       \item \textbf{Outcome}: Validates that the system meets predefined acceptance criteria and fulfills stakeholders' needs, ensuring successful adoption and user satisfaction.
+   \end{itemize}
+
+8. \textbf{Alpha Testing}:
+   \begin{itemize}
+       \item \textbf{Scenario}: In-house testing by the development team to identify any bugs or issues before releasing the platform to a wider audience.
+       \item \textbf{Outcome}: Uncovers defects and usability issues early in the development process, enabling timely fixes and improvements to ensure a stable and high-quality product.
+   \end{itemize}
+
+9. \textbf{Beta Testing}:
+   \begin{itemize}
+       \item \textbf{Scenario}: Inviting a select group of users, such as early adopters or trusted clients, to use the platform and provide feedback before the official launch to the public.
+       \item \textbf{Outcome}: Gathers real-world feedback from end users, identifying any remaining issues or usability concerns and validating the readiness of the platform for public release.
+   \end{itemize}
+
+
+
 
 \section{Conclusion and Future Work}
 Intern Insight represents a groundbreaking advancement in the realm of internship management, providing a trans-formative platform that caters to the unique requirements of both employers and aspiring interns. By reimagining the internship life cycle, Intern Insight has established itself as a centralized hub for seamlessly storing, managing, and organizing critical data, streamlining candidate selection processes for employers, and empowering interns in their pursuit of meaningful career opportunities.
