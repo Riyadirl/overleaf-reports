@@ -1,0 +1,575 @@
+\documentclass[conference]{IEEEtran}
+\IEEEoverridecommandlockouts
+% The preceding line is only needed to identify funding in the first footnote. If that is unneeded, please comment it out.
+\usepackage{cite}
+\usepackage{amsmath,amssymb,amsfonts}
+\usepackage{algorithmic}
+\usepackage{graphicx}
+\usepackage{textcomp}
+\usepackage[utf8]{inputenc}
+\usepackage{xcolor}
+\usepackage{tikz}
+\usepackage{float}
+\usetikzlibrary{shapes.multipart}
+\def\BibTeX{{\rm B\kern-.05em{\sc i\kern-.025em b}\kern-.08em
+    T\kern-.1667em\lower.7ex\hbox{E}\kern-.125emX}}
+\begin{document}
+
+
+\title{Intern Insight}
+
+\author{
+\IEEEauthorblockN{\textbf{Team Untrap}\IEEEauthorrefmark{5}\\\textbf{Mahabub Hasan Riyad}\IEEEauthorrefmark{1}, \textbf{Md. Nazmul Huda}\IEEEauthorrefmark{2}, \textbf{Md. Afranuzzaman Shourov} \IEEEauthorrefmark{3}, \textbf{Rahima Akter}\IEEEauthorrefmark{4}, \textbf{Ananna Ghosh}\IEEEauthorrefmark{1}}
+\IEEEauthorblockA{\textit{Dept. of Computer Science and Engineering} \\
+\textit{\textbf{United International University, Dhaka, Bangladesh}}\\
+011211007\IEEEauthorrefmark{1}, 011211096\IEEEauthorrefmark{2}, 011193060\IEEEauthorrefmark{3}, 011211010\IEEEauthorrefmark{4}, 011191268\IEEEauthorrefmark{1} 
+}}
+
+
+
+\maketitle
+\section{Abstract}
+\begin{abstract}
+"Intern Insight" revolutionizes the landscape of internship management with its cutting-edge platform, offering a seamlessly integrated ecosystem tailored to the needs of both employers and aspiring interns. This innovative system redefines the internship life cycle, providing a holistic solution for every stage of the process.
+\newline
+At its core, Intern Insight serves as a centralized hub for storing and managing crucial data, and effortlessly organizing candidate information and internship details. Employers benefit from streamlined candidate selection processes, facilitated by intuitive filtering options that empower them to identify the most suitable candidates for their roles swiftly. This efficiency not only saves time but also ensures that the best-fit candidates are matched with relevant internship opportunities, fostering mutually beneficial partnerships between organizations and interns. For aspiring interns, Intern Insight offers a wealth of resources aimed at empowering them in their journey toward meaningful career development. Through the platform's user-friendly interface, individuals can explore a diverse array of internship opportunities tailored to their interests, skills, and career aspirations. The intuitive filtering options enable users to refine their search criteria, ensuring that they discover opportunities that align perfectly with their goals.
+\newline
+Moreover, Intern Insight goes beyond merely facilitating internship placements; it serves as a comprehensive career development companion. Through integrated communication tools, users can engage in meaningful interactions with mentors, industry professionals, and peers, gaining valuable insights and guidance along their career path. Job counseling services provide personalized advice and support, helping users navigate the complexities of the job market with confidence and clarity.
+\newline
+In addition to internship opportunities, Intern Insight offers users access to a diverse range of educational resources designed to enhance their skills and knowledge. Through partnerships with leading educational institutions, users can enroll in courses tailored to their level of education and career goals, further enriching their professional development journey. Security and privacy are paramount concerns, and Intern Insight prioritizes the protection of user data through robust encryption protocols and secure document management systems. Users can trust that their personal information remains confidential and protected at all times.
+\newline
+With its scalable architecture, Intern Insight is equipped to accommodate the evolving needs of users and organizations alike, ensuring scalability and flexibility as the platform grows. Whether you're a student embarking on your first internship or an employer seeking top talent, "Intern Insight" offers a user-friendly, comprehensive solution that optimizes the internship experience for all stakeholders. Discover your path to success with "Intern Insight" – where opportunity meets innovation.
+\end{abstract}
+
+
+\section{System Definition}
+Intern Insight is a comprehensive web application designed to facilitate job searching, career guidance, and skill enhancement for users. The system is built using a combination of \textbf{HTML, CSS, JavaScript, MySQL, and Bootstrap} to ensure robust functionality and a user-friendly interface.
+\newline
+The system architecture begins with HTML, providing the foundational structure of web pages. HTML elements are strategically utilized to organize content logically, ensuring seamless navigation and accessibility for users. Clear and concise markup is employed to define the layout, forms, and interactive elements essential for user interaction.
+\newline
+CSS is integrated to enhance the visual presentation and styling of the application. Cascading style sheets are leveraged to customize the appearance of HTML elements, ensuring consistency across pages and a cohesive user experience. Responsive design principles are implemented using CSS media queries, enabling the application to adapt to various screen sizes and devices.
+\newline
+JavaScript is utilized extensively to add dynamic behavior and interactivity to the application. Client-side scripting enables real-time validation of form inputs, dynamic content updates, and seamless navigation through asynchronous requests. JavaScript frameworks and libraries are employed judiciously to streamline development and optimize performance.
+\newline
+MySQL serves as the relational database management system, responsible for storing and managing data essential for the application's functionality. Structured Query Language (SQL) is used to define database schema, manipulate data, and perform complex queries. Data integrity and security measures are implemented to safeguard sensitive information and ensure compliance with privacy regulations.
+\newline
+Bootstrap framework is integrated to expedite frontend development and enhance the application's responsiveness. Pre-designed components and a responsive grid system provided by Bootstrap facilitate rapid prototyping and consistent design patterns. Customization options are utilized to tailor the appearance and behavior of Bootstrap components to align with the application's design requirements.
+\newline
+Collectively, the integration of HTML, CSS, JavaScript, MySQL, and Bootstrap enables Intern Insight to deliver a seamless and intuitive user experience. The system's architecture is designed to accommodate scalability, maintainability, and performance optimization, ensuring its viability as a comprehensive platform for job seekers, career counselors, and learners alike.
+
+\section{Benchmark Analysis}
+Intern Insight has carved its niche in the competitive landscape of job-searching platforms, particularly in Bangladesh, by offering a comprehensive suite of features tailored to the needs of its users. A benchmark analysis reveals several areas where Intern Insight shines compared to other renowned platforms in the region, as well as global giants like Linked In.
+
+First and foremost, Intern Insight's emphasis on user-friendliness sets it apart. While other platforms may overwhelm users with a barrage of options, Intern Insight streamlines the job search process through intuitive filtering options. This simplicity not only enhances the user experience but also ensures that job seekers can efficiently navigate through numerous opportunities without feeling bogged down.
+
+Additionally, Intern Insight stands out in its provision of personalized advice through job counseling services. While some platforms may offer generic tips, Intern Insight goes the extra mile by providing tailored guidance based on individual career goals and aspirations. This personalized approach resonates with users, fostering a sense of trust and loyalty towards the platform.
+
+Furthermore, Intern Insight's integration of educational courses adds another dimension to its appeal. By offering opportunities to enroll in courses suited to users' education levels, Intern Insight becomes more than just a job search platform—it becomes a holistic resource for career development. This integration not only attracts users seeking to enhance their skills but also positions Intern Insight as a one-stop destination for all their career-related needs.
+
+Comparing Intern Insight to global juggernauts like Linked In, it's evident that while the latter boasts a vast network and brand recognition, Intern Insight excels in its localized approach and tailored services. While Linked In may cater to a broad spectrum of users worldwide, Intern Insight's focus on the specific needs and nuances of the Bangladeshi job market gives it a competitive edge in terms of relevance and effectiveness.
+
+In conclusion, Intern Insight's benchmark analysis reveals its strengths in user-friendliness, personalized advice, and integration of educational courses, setting it apart from both local competitors and global giants. By continually innovating and refining its offerings, Intern Insight is poised to solidify its position as the premier destination for job seekers in Bangladesh and beyond.
+
+\begin{figure}[H]
+    \centering
+\includegraphics[width=0.5\textwidth]{iibenchmark.png}
+\end{figure}
+
+\section{Proposed Feature List}
+\subsection{Login-Logout}
+ Users can securely log in to their accounts using email/password or social media authentication. Logout functionality ensures the security of users' accounts when they finish their sessions.
+\subsection{Profile Creation and Editing}
+ Users can create detailed profiles including personal information, educational background, work experience, skills, and preferences. Profile editing allows users to update their information, add new skills or experiences, and adjust their preferences as needed.
+\subsection{Registration and Profile Updating}
+ New users can register easily by providing basic information and creating a profile. Profile updating feature enables users to keep their profiles relevant and up-to-date by adding new achievements, certifications, or experiences.
+\subsection{Posting Job Circulars}
+Employers can post job openings with detailed descriptions including job titles, responsibilities, requirements, and application instructions. Job postings can be categorized and filtered for easy browsing by job seekers.
+\subsection{Quiz Sections for Improvement}
+ Interactive quizzes covering various topics such as technical skills, soft skills, and industry-specific knowledge. Detailed feedback is provided after each quiz attempt, highlighting areas for improvement and suggesting relevant resources or courses.
+\subsection{Job Searching}
+ Advanced search filters allow users to refine job listings based on criteria such as location, industry, salary range, and required skills. Saved searches and alerts to notify users about new job postings matching their preferences.
+\subsection{Timed Quiz Attempts before Applying for a Job}
+ Users can take timed quizzes related to specific job requirements or industries before applying for relevant positions. Quizzes simulate real-world scenarios and assess users' readiness for the job role they're interested in.
+\subsection{Quiz Information Dashboard of a Profile}
+ A comprehensive dashboard displaying users' quiz history, performance metrics, strengths, and areas for improvement. Graphical representations and charts provide visual insights into users' progress over time.
+\subsection{Course Offerings}
+ A curated selection of courses covering a wide range of topics relevant to users' career aspirations and educational backgrounds. Courses are categorized, and users can easily browse, enroll, and track their progress.
+\subsection{Enrollment in Lectures}
+ Users can enroll in live lectures, webinars, or online workshops conducted by industry experts and educators. Lecture schedules, topics, and registration details are available within the platform.
+\subsection{Building Resume/CV}
+ User-friendly tools and templates to guide users in creating professional resumes or CVs tailored to their target industries and job roles. Customization options include formatting, sections, and content organization to highlight users' strengths and achievements effectively.
+\subsection{Editing Resume/CV}
+ Users can edit their resumes or CVs at any time to reflect their latest experiences, skills, certifications, or achievements. Revision history and version control features ensure that users can track changes and revert to previous versions if needed.
+
+
+
+\section{Information Gathering (Survey)}
+leveraging Google Forms to gather responses for Intern Insight was a strategic move that streamlined our data collection process and ensured seamless interaction with our users. Here's how we executed it:
+
+\begin{figure}[H]
+    \centering
+\includegraphics[width=0.5\textwidth]{iisurvey.png}
+\end{figure}
+
+
+\subsection{Crafting the Survey Questions}
+Starting by outlining the key aspects we had to inquire about regarding Intern Insight. Include questions that touch upon its user-friendliness, filtering options, job counseling effectiveness, and course suitability. Keep the language clear and concise to ensure respondents understand the questions easily.
+\subsection{Introduction Section}
+Begin our survey with a brief introduction explaining the purpose of the survey and reassuring respondents about the confidentiality of their responses. We also provided a short overview of Intern Insight to ensure respondents are aware of its features and benefits.
+\textbf{
+\subsection{Question Types}
+}
+Utilizing a mix of question types to gather comprehensive feedback and Including multiple-choice questions for quick responses on topics like app usability and satisfaction levels. Additionally, incorporate open-ended questions to allow respondents to provide detailed feedback and suggestions for improvement.
+\subsection{User Experience Evaluation}
+Designing questions that evaluate the user experience of Intern-Insight. For example:
+\begin{enumerate}
+    \item "On a scale of 1 to 5, how would you rate the user-friendliness of Intern Insight?"
+    \item "What features of Intern Insight do you find most helpful in your job search?"
+\end{enumerate}
+\subsection{Effectiveness Assessment}
+Assessing the effectiveness of Intern Insight's features such as job counseling and course recommendations. Asking questions like:
+\begin{enumerate}
+    \item "Have you utilized the job counseling services offered by Intern Insight? If yes, please rate its effectiveness."
+    \item "Did the courses recommended by Intern Insight align with your educational level and career goals?"
+\end{enumerate}
+\subsection{Feedback Gathering}
+Encouraging respondents to provide suggestions for improvement by including open-ended questions such as:
+\begin{enumerate}
+    \item "How can Intern Insight be enhanced to better meet your job search needs?"
+    \item "Are there any additional features you would like to see added to Intern Insight?"
+\end{enumerate}
+\subsection{Closing Section}
+Concluding the survey with a thank you message expressing gratitude for their participation. We also provided an option for respondents to leave their contact information if they wish to be updated on future developments or participate in follow-up surveys.
+\subsection{Distribution Strategy}
+Sharing the survey link through various channels such as email newsletters, social media platforms, and relevant online communities frequented by job seekers.
+
+By following these steps, We effectively gathered feedback from a wide range of users and gained valuable insights into their perceptions of Intern Insight as their job-searching platform.
+
+
+\section{Feasibility Study}
+\textbf{What Is Feasibility Study?}
+
+A feasibility study is an assessment that determines the likelihood of a proposed project being successful, such as a new product line or technical system. The study analyzes the project's relevant factors, such as technical, economic, and legal considerations, to assess whether the project is worth an investment. The study can also identify potential issues and problems that could arise from pursuing the project.
+
+\textbf{Importance of feasibility studies:}
+\begin{itemize}
+    \item Identifies valid reasons to advance or veto a project idea.
+    \item Improves the focus of the project team by providing clear goals and objectives linked to ROI.
+    \item Provides useful information for the next steps after the study, aiding in decision-making processes.
+    \item Narrows potential business alternatives by prioritizing those with higher ROI potential.
+    \item Evaluates current and needed resources and technology required for the project.
+    \item Enhances the success or failure rate of the project by assessing all variables, reducing uncertainties.
+   
+\end{itemize}
+
+
+\textbf{Feasibility Study for Intern Insight:}
+\newline
+\textbf{Market Analysis:}
+\begin{itemize}
+    \item Identify the target market (e.g., students, recent graduates, career changers).
+    \item Analyze the demand for job search apps, career counseling services, and online courses.
+    \item Assess competitors' strengths, weaknesses, and market share.
+\end{itemize}
+\textbf{Technical Feasibility:}
+\begin{itemize}
+    \item Evaluate the app's development requirements, including technology stack, scalability, and security measures.
+    \item Determine if the app can be developed within budget and time constraints.
+    \item Consider compatibility with different devices and operating systems.
+\end{itemize}
+\textbf{Financial Feasibility:}
+\begin{itemize}
+    \item Estimate the initial development costs, including software development, design, and infrastructure.
+    \item Calculate ongoing expenses such as maintenance, marketing, and server hosting.
+    \item Project revenue streams, such as subscription fees, course enrollment fees, or advertising.
+\end{itemize}
+\textbf{Legal and Regulatory Compliance:}
+\begin{itemize}
+    \item Ensure compliance with data protection regulations (e.g., GDPR, CCPA).
+    \item Obtain necessary licenses or permits for operating the app.
+    \item Address any legal risks associated with user-generated content, intellectual property rights, or employment laws.
+\end{itemize}
+\textbf{Operational Feasibility:}
+\begin{itemize}
+    \item Assess the resources required to operate the app, including staffing, customer support, and content management.
+    \item Determine if existing processes and workflows can accommodate app operations.
+    \item Identify potential challenges in user engagement, retention, and satisfaction.
+\end{itemize}
+\textbf{Marketing and User Acquisition:}
+\begin{itemize}
+    \item Develop a marketing strategy to attract users to the app.
+    \item Consider leveraging social media, search engine optimization (SEO), and partnerships with educational institutions or employers.
+    \item Evaluate the cost-effectiveness of different acquisition channels and retention tactics.
+\end{itemize}
+\textbf{Risk Assessment:}
+\begin{itemize}
+    \item Identify potential risks that could affect the success of the app, such as technical issues, competition, or changes in market demand.
+    \item Develop mitigation strategies to address these risks, such as regular updates and improvements, diversification of revenue streams, or partnerships with industry stakeholders.
+\end{itemize}
+\textbf{Social and Environmental Impact:}
+\begin{itemize}
+    \item Consider the broader implications of the app on society and the environment.
+    \item Evaluate how InternInsight contributes to addressing societal challenges such as unemployment or skill gaps.
+    \item Assess the app's carbon footprint and explore opportunities for sustainability initiatives.
+\end{itemize}
+\section{Survey Responses}
+
+\begin{figure}[H]
+    \centering
+\includegraphics[width=0.5\textwidth]{sage.png}
+\end{figure}
+There are 39 responses in total. The pie chart is divided into three colored segments representing different age groups:
+
+Blue segment: Ages 18-25, constituting 41 Percent of the responses.
+Red segment: Ages 26-35, constituting 59 Percent of the responses.
+
+\begin{figure}[H]
+    \centering
+\includegraphics[width=0.5\textwidth]{sgender.png}
+\end{figure}
+The image displays a pie chart with data on gender distribution based on 39 responses. The chart is divided into two colors: red representing males, which accounts for 43.6 percent of the responses, and blue representing females, which makes up 56.4 percent of the responses.
+
+\begin{figure}[H]
+    \centering
+\includegraphics[width=0.5\textwidth]{sq&r.png}
+\end{figure}
+The image displays a bar graph titled "Questionnaire and Responses," showing the results of a survey asking respondents which web portals or apps they frequently use in job searching. Here is a list of the apps and websites along with their corresponding number of mentions:
+
+\begin{itemize}
+    \item Bdjobs - 24 responses (61.5 percent)
+    \item Chakri - 10 responses (25.6 percent)
+    \item Job Circular - 9 responses (23.1 percent)
+    \item LinkedIn - 17 responses (43.6 percent)
+    \item Fiverr - 2 responses (5.1 percent)
+\end{itemize}
+The graph uses bars of varying lengths to visually represent the number of responses, with the percentages provided in parentheses next to each bar.
+
+
+\begin{figure}[H]
+    \centering
+\includegraphics[width=0.5\textwidth]{sq&r1.png}
+\end{figure}
+The image shows a pie chart titled "Questionnaire and Responses" with a subtitle explaining the context: "How important is it for you to find good candidates preferably suitable for the offered job rather than sorting through a large number of candidates?" The chart summarizes 39 responses divided into four categories:
+\begin{itemize}
+    \item Extremely important - represented by blue color, taking up the largest portion at 46.2 percent.
+    \item Very important - shown in green, accounting for 38.5 percent.
+    \item Somewhat important - in orange, comprising 12.8 percent.
+    \item Not important - in grey, the smallest segment at 2.6 percent.
+\end{itemize}
+
+Additionally, on the right side of the image, there is a list matching the colors with the corresponding levels of importance, providing a visual guide for interpreting the chart.
+
+\begin{figure}[H]
+    \centering
+\includegraphics[width=0.5\textwidth]{sq&r2.png}
+\end{figure}
+The image displays a pie chart with data from a questionnaire titled "Questionnaire and Responses." The pie chart represents responses to the question: "As a job seeker, how important is it to you to find correlated questions that can help you to learn more about the company's requirements and policies before applying for a job?" There are 39 responses, divided into four categories:
+
+\begin{itemize}
+    \item Extremely important: 46. percent
+    \item Very important: 38.5 percent
+    \item Somewhat important: 23. percent
+    \item Not important: 0 percent
+\end{itemize}
+The colors representing each category are not specified in the text description but are distinct in the pie chart. The title and framing of the question suggest this data is intended to gauge the importance job seekers place on having detailed prior information about a company during the job search process.
+
+\begin{figure}[H]
+    \centering
+\includegraphics[width=0.5\textwidth]{sq&r3.png}
+\end{figure}
+This image is a PowerPoint slide titled "Questionnaire and Responses" focusing on the topic "Applying for a job through Quiz Sessions." It features a pie chart with 38 responses categorized into four segments representing different levels of helpfulness:
+
+\begin{itemize}
+    \item Blue segment: "Not Helpful" - 10.5 percent
+    \item Red segment: "Maybe" - 36.8 percent
+    \item Green segment: "Quite Helpful" - 34.2 percent
+    \item Orange segment: "Yes" - 13.2 percent
+\end{itemize}
+On the right side of the pie chart, there is a legend that matches the colors used in the chart to the respective responses. The layout is clear and used to visually represent the opinions of respondents regarding the effectiveness of using quiz sessions in job application processes.
+
+
+
+\section{Gap Analysis}
+\subsection{User Experience (UX)}
+\textbf{Gap:} Users might find the app cluttered or confusing due to too many options or lack of clear navigation.
+\newline
+\textbf{Solution:} Conduct usability testing to identify pain points and streamline the user interface. Simplify navigation, optimize loading times, and ensure consistency in design elements across the app.
+
+\subsection{Filtering Options}
+\textbf{Gap:} Filtering options may not be comprehensive or intuitive enough for users to find relevant job opportunities easily.
+\newline
+\textbf{Solution:} Enhance filtering options based on user feedback. Allow users to filter by location, industry, job type, salary range, etc. Implement predictive search to assist users in finding what they're looking for faster.
+
+\subsection{Job Counseling}
+\textbf{Gap:} Users may not find the job counseling feature helpful or accessible enough.
+\newline
+\textbf{Solution:} Offer personalized job counseling sessions with experienced career advisors. Implement chat or video call support for real-time assistance. Provide resources such as resume reviews, interview preparation guides, and career assessments.
+
+\subsection{Course Enrollment}
+\textbf{Gap:} The current course offerings may not align well with users' educational backgrounds or career goals.
+\newline
+\textbf{Solution:} Collaborate with reputable educational institutions to offer a wider range of courses tailored to different skill levels and industries. Implement a competency-based approach to suggest courses based on users' career aspirations and current skill sets.
+
+\subsection{Feedback Mechanism}
+\textbf{Gap:} There may not be an efficient system in place to gather and act upon user feedback.
+\newline
+\textbf{Solution:} Implement a feedback mechanism within the app to encourage users to provide suggestions and report issues. Regularly review and prioritize feedback to make continuous improvements to the app's features and usability.
+
+\subsection{Community Engagement}
+\textbf{Gap:} Users may feel disconnected from other users or lack a sense of community within the app.
+\newline
+\textbf{Solution:}  Introduce community forums or discussion boards where users can interact, share insights, and seek advice from peers. Encourage user-generated content such as success stories, tips for job hunting, or reviews of courses taken through the app.
+\subsection{Accessibility and Inclusively}
+\textbf{Gap:} The app may not cater to users with disabilities or those from diverse backgrounds.
+\newline
+\textbf{Solution:} Conduct an accessibility audit to ensure the app meets the needs of users with disabilities. Provide language support for non-native English speakers and consider cultural sensitivities when designing features and content.
+
+
+\section{SWOT Analysis}
+\textbf{What is SWOT Analysis?}
+
+SWOT stands for Strengths, Weaknesses, Opportunities, and Threats. A SWOT analysis is a framework to help assess and understand the internal and external forces that may create opportunities or risks for an organization.
+
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\textwidth]{swot.png}
+   
+    \label{fig:swot}
+\end{figure}
+\textbf{SWOT Analysis for Intern Insight System}
+\newline
+\textbf{Strengths:}
+
+\begin{itemize}
+    \item Diversified Skill Enhancement: Intern Insight's focus on skill enhancement through various courses caters to a wide audience with different educational backgrounds and career aspirations. This broadens its appeal and potential user base.
+    \item Interactive Application Process: The user-friendly interface and easy filtering options streamline the job search process, enhancing user experience and engagement.
+    \item Unique Value Proposition: InternInsight's combination of job search functionality, counseling services, and educational opportunities offers a comprehensive solution that distinguishes it from competitors.
+\end{itemize}
+
+\textbf{Weaknesses:}
+
+\begin{itemize}
+    \item Limited Brand Recognition: The app may struggle to gain traction due to its lack of brand awareness, especially when competing against more established platforms in the job search and education sectors.
+    \item Course Quality Concerns: If users perceive the quality of courses offered by InternInsight to be subpar, it could lead to dissatisfaction and loss of trust in the platform.
+    \item Market Entry Barriers: Breaking into the competitive job search and education market requires significant resources and strategic planning, posing a challenge to Intern Insight's growth.
+\end{itemize}
+
+\textbf{Opportunities:}
+
+\begin{itemize}
+    \item Niche Market Penetration: Intern Insight could target specific niches within the job search and education sectors, catering to specialized industries or demographics to differentiate itself and attract a dedicated user base.
+    \item Partnerships with Companies: Collaborating with companies to provide exclusive job opportunities and training programs can enhance InternInsight's value proposition and credibility.
+    \item Global Expansion: There's potential for Intern Insight to expand its reach beyond its current market, tapping into international markets where there's a demand for job search and educational platforms.
+\end{itemize}
+
+\textbf{Threats:}
+
+\begin{itemize}
+    \item Competition from Established Platforms: Established players in the industry pose a significant threat to Intern Insight's market share, as users may opt for more familiar and trusted platforms.
+    \item Rapid Technological Changes: Advances in technology could quickly make InternInsight's features outdated if the platform fails to adapt and innovate accordingly.
+    \item User Resistance to Change: Users may be hesitant to switch to a new platform, especially if they're already comfortable with existing solutions, resulting in slower adoption rates for Intern Insight.
+\end{itemize}
+
+
+Addressing these factors through strategic marketing, partnerships, continuous improvement of course quality, and technological innovation will be crucial for Intern Insight to capitalize on its strengths and opportunities while mitigating weaknesses and threats.
+
+
+
+
+
+\section{Final Feature List}
+
+\textbf{
+\subsection{User Interface:}
+}
+\begin{itemize}
+    \item Clean and intuitive design for easy navigation.
+    \item Seamless user experience across all platforms (web, mobile).
+\end{itemize}
+\textbf{
+\subsection{Job Search and Filtering:}
+}
+\begin{itemize}
+    \item Extensive database of job opportunities from various industries.
+    \item Advanced filtering options based on location, industry, salary, etc.
+    \item Saved search functionality for personalized job alerts.
+\end{itemize}
+\textbf{
+\subsection{Job Counseling:}
+}
+\begin{itemize}
+    \item Access to expert advice and guidance on career development.
+    \item Personalized recommendations based on individual career goals and aspirations.
+    \item Tips for resume building, interview preparation, and career advancement.
+\end{itemize}
+\textbf{
+\subsection{Pre-Employment Assessment Quiz:}
+}
+\begin{itemize}
+    \item Customize quiz module designed to assess candidates' skills and suitability for specific roles.
+    \item Employers can create tailored quizzes to evaluate candidates' competency and cultural fit.
+    \item Real-time feedback and analysis to help candidates understand their strengths and areas for improvement.
+\end{itemize}
+\textbf{
+\subsection{Course Catalog:}
+}
+\begin{itemize}
+    \item Diverse range of professional courses curated to enhance candidates' skills and qualifications.
+    \item Courses categorized by industry, skill level, and specialization.
+    \item Integration with leading online learning platforms for seamless enrollment and certification.
+\end{itemize}
+\textbf{
+\subsection{Interview Portals:}
+}
+\begin{itemize}
+    \item Streamlined scheduling system for organizing interviews between employers and candidates.
+    \item Automated reminders and notifications to ensure punctuality and smooth communication.
+    \item Video interviewing capabilities for remote and global recruitment processes.
+\end{itemize}
+\textbf{
+\subsection{Candidate Profile Management:}
+}
+\begin{itemize}
+    \item Comprehensive profiles for candidates to showcase their skills, qualifications, and professional experience.
+    \item Option to upload resumes, portfolios, and other relevant documents.
+    \item Privacy settings to control the visibility of personal information to employers.
+\end{itemize}
+\textbf{
+\subsection{Employer Dashboard:}
+}
+\begin{itemize}
+    \item Centralized dashboard for employers to manage job postings, candidate applications, and interview schedules.
+    \item Analytics and insights on candidate engagement, recruitment metrics, and hiring trends.
+    \item Collaboration tools for HR teams to streamline decision-making and communication.
+\end{itemize}
+\textbf{
+\subsection{Feedback and Rating System:}
+}
+\begin{itemize}
+    \item Mechanism for both employers and candidates to provide feedback and rate their experiences.
+    \item Continuous improvement loop based on feedback to enhance user satisfaction and platform effectiveness.
+\end{itemize}
+
+
+\section{ System Design}
+
+
+
+\subsection{Deployment diagram}
+A deployment diagram is a diagram that shows the configuration of run-time processing nodes and the components that live on them. Deployment diagrams are a kind of structure diagram used in modeling the physical aspects of an object-oriented system. They are often used to model the static deployment view of a system
+\textbf{Purpose of Deployment Diagrams}
+\begin{itemize}
+    \item They show the structure of the run-time system
+    \item They capture the hardware that will be used to implement the system and the links between different items of hardware.
+    \item They model physical hardware elements and the communication paths between them.
+    \item They can be used to plan the architecture of a system.
+\end{itemize}
+
+Deployment Diagram of Intern Insight:
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\textwidth]{uidiagram.png}
+    \caption{Designing Diagram}
+    \label{fig:class_diagram}
+\end{figure}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\textwidth]{uidatabase.png}
+    \caption{SQL Database}
+    \label{fig:class_diagram}
+\end{figure}
+
+
+
+\subsection{UI design}
+ The user interface is the part of the system with which the users interact. It includes the screen displays that provide navigation through the system, the screens and forms that capture data, and the reports that the system produces (whether on paper, on the Web, or via some other media). This chapter introduces the basic principles and processes of interface design and discusses how to design the interface structure and standards.
+ \newline
+ UI Design of Inter Insight:
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\textwidth]{uireg.png}
+    \caption{Registration page}
+    \label{fig:class_diagram}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\textwidth]{uilogin.png}
+    \caption{Login page}
+    \label{fig:class_diagram}
+\end{figure}
+
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\textwidth]{uihome.png}
+    \caption{Home page}
+    \label{fig:class_diagram}
+\end{figure}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\textwidth]{uipu.png}
+    \caption{Profile Updating}
+    \label{fig:class_diagram}
+\end{figure}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\textwidth]{uiorghome.png}
+    \caption{Organization Home Page}
+    \label{fig:class_diagram}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\textwidth]{uice.png}
+    \caption{Career Counselling}
+    \label{fig:class_diagram}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\textwidth]{uicircular.png}
+    \caption{Job Circular}
+    \label{fig:class_diagram}
+\end{figure}
+
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\textwidth]{uiquiz.png}
+    \caption{Quiz Page}
+    \label{fig:class_diagram}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\textwidth]{uiadminquiz.png}
+    \caption{Admin Quiz}
+    \label{fig:class_diagram}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+\includegraphics[width=0.5\textwidth]{uiadminblog.png}
+    \caption{Admin Blogs}
+    \label{fig:class_diagram}
+\end{figure}
+
+\section{Conclusion and Future Work}
+Intern Insight represents a groundbreaking advancement in the realm of internship management, providing a trans-formative platform that caters to the unique requirements of both employers and aspiring interns. By reimagining the internship life cycle, Intern Insight has established itself as a centralized hub for seamlessly storing, managing, and organizing critical data, streamlining candidate selection processes for employers, and empowering interns in their pursuit of meaningful career opportunities.
+\newline
+Through intuitive filtering options and a user-friendly interface, Intern Insight facilitates efficient matchmaking between organizations and interns, ensuring that the most suitable candidates are connected with relevant internship opportunities. Moreover, Intern Insight transcends traditional internship placement platforms by offering a comprehensive suite of career development resources, including integrated communication tools for mentorship, job counseling services, and access to educational courses tailored to individual skill levels and career aspirations.
+\newline
+As we reflect on the success of Intern Insight, it's evident that our dedication to user-centric design and technological innovation has yielded significant benefits for all stakeholders involved. Moving forward, our future work plan for Intern Insight will focus on several key areas to further enhance the platform's capabilities and expand its impact:
+
+\begin{itemize}
+    \item Continuous Improvement: We are committed to continuously refining and optimizing the Intern Insight platform based on user feedback and evolving industry trends. This includes enhancing the user experience, implementing new features, and addressing any technical issues to ensure seamless functionality.
+    \item Expansion of Partnerships: We will seek to forge strategic partnerships with additional employers, educational institutions, and industry experts to broaden the range of internship opportunities, educational resources, and mentorship networks available to Intern Insight users.
+    \item Integration of AI and Data Analytics: Leveraging the power of artificial intelligence and data analytics, we aim to enhance the platform's matchmaking algorithms, personalize user experiences, and provide actionable insights for both employers and interns to make informed decisions.
+    \item Enhanced Security Measures: As cyber threats continue to evolve, we will prioritize the enhancement of security protocols and privacy measures to safeguard user data and maintain trust and confidence in the Intern Insight platform.
+    \item Global Expansion: With a vision to make Intern Insight accessible to a broader audience, we will explore opportunities for global expansion, tailoring the platform to meet the unique needs and requirements of different regions and cultures.
+\end{itemize}
+
+In conclusion, Intern Insight stands as a testament to our commitment to innovation, collaboration, and empowerment in the realm of internship management and career development. As we embark on this journey of continuous improvement and expansion, we remain dedicated to our mission of revolutionizing the internship experience and empowering individuals to achieve their full potential in the professional world. Join us on this exciting adventure as we shape the future of internships with Intern Insight.
+\end{document}
